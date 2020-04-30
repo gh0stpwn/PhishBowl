@@ -32,7 +32,7 @@ def notify(uuidtxt, urlstr):
       url2 = ''.join([base_results, urlsan])
       url3 = ''.join([url2, base_results2])
       url4 = ''.join([url3, uuidtxt])
-      bot = telepot.Bot('858410252:AAGxcefiBF3Pd5xloGfRkWrd6_Fbmhcqu8k')
+      bot = telepot.Bot('BOTID')
       bot.sendPhoto('-1001414226860', url, url4)
 
 
